@@ -1,0 +1,241 @@
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --main-color: #6C96F8;
+    --second-color: #25449b;
+    --text-color: #484848;
+    --bg-color: #fff;
+    --box-shadow: 2px 2px 18px rgb(14 52 54 / 15%)
+}
+
+img{
+    width: 100%;
+}
+
+
+body{
+    color: var(--text-color);
+}
+
+h1{font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+
+button{
+    
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: none ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    background-color: #6C96F8;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4568bb;
+}
+
+.container{
+    max-width: 1600px;
+    margin: auto;
+}
+
+header{
+    background-color: rgba(255, 255, 255);
+}
+
+header .logo{
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0px 30px;
+}
+
+header .container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: medium;
+    color: #6C96F8;
+}
+header a:hover{
+    color: #4568bb;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    height: 90vh;
+    background-image: 
+        url("media/hero-sec.jpg"),
+        linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5));
+    background-size: cover;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#hero .column {
+    text-align: left;
+    flex: 1;
+    padding: 40px;
+}
+#hero .filtro {
+    background-color: rgba(243, 243, 243, 0.98); /* Fondo semitransparente para el filtro */
+    border-radius: 12px;
+    padding: 27px;
+    
+    color: #484848;
+    font-weight: bold;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#hero .column-date{
+    float: left; 
+    padding-right: 10px;
+}
+
+
+
+#hero h1{
+    color: white;
+    padding: 5px 0;
+    margin-top: 15rem;
+}
+#hero .parrafo1{
+    color: white;
+    padding: 30px 0;
+    
+}
+
+
+
+
+@media (min-width: 700px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 10px;
+    }
+
+    header .logo{
+        width: 250px;
+        height: auto;
+    }
+
+    
+/* rooms */
+    .heading{
+        margin-bottom: 2rem;
+    }
+
+    .heading h2{
+        font-size: 2rem;
+    }
+    .heading p{
+        font-size: 1rem;
+    }
+    .box {
+        background: #fbfbfb;
+        border-radius: 2rem;
+    }
+    .rooms-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+        gap: 3rem;
+        padding: 0 50px;
+    }
+    .rooms-container .box{
+        background: var(--bg-color);
+        padding: 10px;
+        border-radius: 1rem;
+        box-shadow: var(--box-shadow);
+    }
+    .rooms-container .box:hover{
+        transform: translateY(-10px);
+        transition: 0.5s;
+    }
+    .rooms-container .box img{
+        border-radius: 1rem;
+        height: 220px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .rooms-container .box h3{
+        font-size: 1rem;
+        font-weight: 600;
+        float: right;
+    }
+    .rooms-container .box .content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+    .rooms-container .box .content .text h3{
+        font-weight: 500;
+    }
+    .rooms-container .box .content .text p{
+        font-size: 0.8rem;
+    }
+    .rooms-container .box .content .icon {
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+    }
+    .rooms-container .box .content .icon .bx{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    .rooms-container .box .content .icon .span{
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 4px;
+    }
+}
