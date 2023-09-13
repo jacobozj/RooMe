@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -76,11 +77,11 @@ WSGI_APPLICATION = 'RooMe123.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'roome_db',
-            'USER': 'sqluser',
-            'PASSWORD': '1234',
+            'NAME': 'roome',
+            'USER': 'simobote',
+            'PASSWORD': 'simonbotero10',
             'HOST': 'localhost',
-            'PORT': '3307',
+            'PORT': '3306',
         }
     }
 
