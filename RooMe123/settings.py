@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'RooMe123.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'roome',
-            'USER': 'simobote',
-            'PASSWORD': 'simonbotero10',
+            'NAME': 'roome_db',
+            'USER': 'sqluser',
+            'PASSWORD': '1234',
             'HOST': 'localhost',
-            'PORT': '3306',
+            'PORT': '3307',
         }
     }
 

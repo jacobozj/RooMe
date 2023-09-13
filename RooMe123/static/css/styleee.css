@@ -1,0 +1,554 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/** Main header start **/
+.main-header .company-logo {
+    padding: 15px 0;
+    float: left;
+  }
+  
+  .main-header .company-logo-2 {
+    padding: 15px 0;
+    float: left;
+  }
+  
+  .header-with-top {
+    background: rgba(12, 12, 12, 0.18);
+  }
+  
+  .main-header .pad-0 {
+    padding: 0;
+  }
+  
+  .main-header .btn-md {
+    margin-top: 15px;
+  }
+  
+  .main-header .company-logo img {
+    height: 50px;
+  }
+  
+  .main-header .company-logo-2 img {
+    height: 50px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .header-ml {
+    margin-left: 20px;
+  }
+  
+  .header-transparent {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.2);
+  }
+  
+  .main-header .navbar-expand-lg .navbar-nav .nav-link {
+    color: #636060;
+  }
+  .main-header .button-style{
+    margin-left: 3px;
+  
+  }
+  .main-header .top-social-media{
+    padding: 0px 4px;
+  }
+  .main-header .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 32.5px 15px;
+    line-height: 20px;
+    color: #515151;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .main-header .navbar-expand-lg .navbar-nav .nav-link i {
+    margin-right: 5px;
+  }
+  
+  .main-header .navbar-expand-lg .navbar-nav .link-color:hover {
+    background: transparent;
+  }
+  
+  .main-header .navbar-expand-lg .navbar-nav .link-color {
+    padding: 9px 20px 7px !important;
+    border-radius: 50px;
+    margin: 26px 0 0 10px;
+  }
+  
+  .main-header .navbar-expand-lg .user-account {
+    padding: 30px 15px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .main-header .navbar-expand-lg .user-account li {
+    border: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+  
+  .main-header .navbar-expand-lg .user-account li a {
+    color: #4d4d4d;
+  }
+  
+  .main-header .navbar {
+    padding: 0;
+  }
+  
+  .main-header .form-inline .submit {
+    padding: 7px 22px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: 600;
+  }
+  
+  .main-header .dropdown-menu {
+    min-width: 10rem;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: #212529;
+    border: none;
+    -webkit-transition: opacity 0.4s ease 0s, visibility 0.4s linear 0s,
+      -webkit-transform 0.4s ease 0s;
+    transition: opacity 0.4s ease 0s, visibility 0.4s linear 0s,
+      -webkit-transform 0.4s ease 0s;
+    transition: opacity 0.4s ease 0s, transform 0.4s ease 0s,
+      visibility 0.4s linear 0s;
+    transition: opacity 0.4s ease 0s, transform 0.4s ease 0s,
+      visibility 0.4s linear 0s, -webkit-transform 0.4s ease 0s;
+    border-radius: 0;
+    border-top: solid 1px #f1f1f1;
+  }
+  
+  .dropdown .dropdown-item:hover > .dropdown-menu {
+    display: block;
+    -webkit-transition: opacity 0.4s ease 0s, visibility 0.4s linear 0s,
+      -webkit-transform 0.4s ease 0s;
+    transition: opacity 0.4s ease 0s, visibility 0.4s linear 0s,
+      -webkit-transform 0.4s ease 0s;
+    transition: opacity 0.4s ease 0s, transform 0.4s ease 0s,
+      visibility 0.4s linear 0s;
+    transition: opacity 0.4s ease 0s, transform 0.4s ease 0s,
+      visibility 0.4s linear 0s, -webkit-transform 0.4s ease 0s;
+  }
+  
+  .main-header .dropdown-menu .dropdown-submenu .dropdown-menu {
+    margin: -1px;
+  }
+  
+  .main-header .dropdown-menu a {
+    padding: 12px 20px;
+    color: #535353;
+    transition: all 0.3s ease-in-out;
+    text-transform: none;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+  
+  .main-header .dropdown-menu a:hover {
+    background: transparent;
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  
+
+
+/* contact section aqui */
+.contact-section {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .contact-section .bg-img {
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 20px 20px 0;
+    opacity: 1;
+    width: 100%;
+    z-index: 999;
+    min-height: 496px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-section {
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    opacity: 1;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+  .contact-section .form-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section .form-section p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 15px;
+}
+.contact-section .form-section p a {
+    font-weight: 400;
+    color: #535353;
+}  
+.contact-section .form-section .extra-login {
+    float: left;
+    width: 100%;
+    margin: 25px 0 25px;
+    text-align: center;
+    position: relative;
+}
+
+.contact-section .form-section .extra-login::before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    height: 1px;
+    background: #d8dcdc;
+    content: "";
+}
+
+.contact-section .form-section .extra-login > span {
+    width: auto;
+    float: none;
+    display: inline-block;
+    background: #fff;
+    padding: 1px 20px;
+    z-index: 1;
+    position: relative;
+    font-family: Open Sans;
+    font-size: 13px;
+    color: #616161;
+    text-transform: capitalize;
+}
+
+.contact-section .form-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.contact-section .form-section .social-list li {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.contact-section .logo-2 img {
+    margin-bottom: 5px;
+    height: 45px;
+}
+
+.contact-section .form-section .social-list li a {
+    font-size: 12px;
+    font-weight: 600;
+    width: 120px;
+    margin: 2px 0 3px 0;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .contact-section .form-section .social-list li a i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    float: left;
+    border-radius: 3px;
+  }
+  
+  .contact-section .form-section .social-list li a span {
+    margin-right: 7px;
+    color: #fff;
+  }
+  
+  .contact-section .form-section .thembo {
+    margin-left: 4px;
+  }
+  
+  .contact-section .form-section h3 {
+    margin: 0 0 25px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #212121;
+    text-align: center;
+  }
+  
+  .contact-section .form-section .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-section .form-section .form-box {
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+  
+  .contact-section .form-section .form-box input {
+    float: left;
+    width: 100%;
+    padding: 10px 20px 11px 50px;
+    border-radius: 3px;
+  }
+  
+  .contact-section .form-section .form-box .fa-user {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #717171;
+    font-size: 19px;
+  }
+  
+  .contact-section .form-section .input-text {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: transparent;
+    outline: 0;
+    color: #717171;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  }
+  
+  .contact-section .form-section .form-box i {
+    position: absolute;
+    top: 11px;
+    left: 20px;
+    color: #717171;
+    font-size: 19px;
+  }
+  
+  .contact-section .form-section .checkbox .terms {
+    margin-left: 3px;
+  }
+  
+  .contact-section .form-section .btn-md {
+    cursor: pointer;
+    padding: 14.5px 50px 13.5px 50px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 3px;
+  }
+  
+  .contact-section .form-section input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 3px;
+  }
+  
+  .contact-section .form-section button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+  }
+  
+  .contact-section .form-section .btn-theme.focus,
+  .btn-theme:focus {
+    box-shadow: none;
+  }
+  
+  .contact-section .form-section .btn-theme {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: none;
+    color: #fff;
+  }
+  
+  .contact-section .form-section .btn-theme:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-section .none-2 {
+    display: none;
+  }
+  
+  .contact-section .logo {
+    top: 40px;
+    position: absolute;
+    left: 65px;
+  }
+  
+  .contact-section .form-section .terms {
+    margin-left: 3px;
+  }
+  
+  .contact-section .form-section .checkbox {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .contact-section .form-section .form-check {
+    float: left;
+    margin-bottom: 0;
+  }
+  
+  .contact-section .form-section .form-check a {
+    color: #616161;
+    float: right;
+  }
+  
+  .contact-section .form-section .form-check-input {
+    position: absolute;
+    margin-left: 0;
+  }
+  
+  .contact-section .form-section .form-check label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 2px;
+    margin-left: -25px;
+    border: 1px solid #c5c3c3;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+  
+  .contact-section .form-section .form-check-label {
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #616161;
+  }
+  
+  .contact-section
+    .form-section
+    .checkbox-theme
+    input[type="checkbox"]:checked
+    + label::before {
+    background-color: #00a875;
+    border-color: #00a875;
+  }
+  
+  .contact-section .form-section input[type="checkbox"]:checked + label:before {
+    font-weight: 300;
+    color: #f3f3f3;
+    line-height: 15px;
+    font-size: 14px;
+    content: "\2713";
+  }
+  
+.contact-section .form-section input[type="checkbox"],
+    input[type="radio"] {
+    margin-top: 4px;
+}
+
+.contact-section .form-section a.forgot-password {
+    font-size: 15px;
+    float: right;
+    line-height: 50px;
+}
+
+
+
+
+/* sub banner */
+
+.sub-banner {
+    background: rgba(0, 0, 0, 0.507); 
+    background-size: cover;
+    height: 360px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.sub-banner .breadcrumb-area {
+    letter-spacing: 1px;
+    position: absolute;
+    top: 55%;
+    right: 0;
+    opacity: 0.9;
+    left: 0;
+}
+
+.mb-7 {
+    margin-bottom: 7px;
+}
+
+.sub-banner .breadcrumb-area h1 {
+    margin: 0 0 7px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.sub-banner .breadcrumbs li {
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.sub-banner .breadcrumbs li a {
+    color: #fff;
+}
+
+.sub-banner .breadcrumbs .active {
+    margin-left: 3px;
+    color: #fff;
+}
+
+.sub-banner .breadcrumbs .active:before {
+    margin-right: 7px;
+    content: "/";
+    padding: 0 3px;
+    color: #fff;
+    font: normal normal normal 16px/1 FontAwesome;
+}
+
+
+/** Overview bgi **/
+.overview-bgi {
+    position: relative;
+}
+
+.overview-bgi:before {
+    background: rgba(0, 0, 0, 0.815);
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+}

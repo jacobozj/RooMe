@@ -18,11 +18,9 @@
     --bg-color: #fff;
     --box-shadow: 2px 2px 18px rgb(14 52 54 / 15%)
 }
-
-img{
-    width: 100%;
-}
-
+/* img{
+    
+} */
 
 body{
     color: var(--text-color);
